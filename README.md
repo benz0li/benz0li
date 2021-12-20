@@ -20,8 +20,9 @@ image used to build the amd64 and arm64 binary
 
 Credits to
 
-*  @odidev for [ghc-bootstrap-aarch64](https://gitlab.alpinelinux.org/odidev/ghc-bootstrap-aarch64)  
+*  [@odidev](https://github.com/odidev) for [ghc-bootstrap-aarch64](https://gitlab.alpinelinux.org/odidev/ghc-bootstrap-aarch64)  
    and
-*  @neosimsim for [docker-builder-images](https://gitlab.com/neosimsim/docker-builder-images)
+*  [@neosimsim](https://github.com/neosimsim) for
+   [docker-builder-images](https://gitlab.com/neosimsim/docker-builder-images)
 
 who laid the groundwork for [this](https://gitlab.b-data.ch/ghc/ghc4pandoc).
