@@ -13,16 +13,4 @@ Following the development of
     and
 1.  https://gitlab.alpinelinux.org/alpine/aports
 
-in order to maintain [`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry).  
-:information_source: The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker
-image used to build the amd64 and arm64 binary
-[releases of pandoc](https://github.com/jgm/pandoc/releases).
-
-Credits to
-
-*  [@odidev](https://github.com/odidev) for [ghc-bootstrap-aarch64](https://gitlab.alpinelinux.org/odidev/ghc-bootstrap-aarch64)  
-   and
-*  [@neosimsim](https://github.com/neosimsim) for
-   [docker-builder-images](https://gitlab.com/neosimsim/docker-builder-images)
-
-who laid the groundwork for [this](https://gitlab.b-data.ch/ghc/ghc4pandoc).
+in order to maintain [`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry).
