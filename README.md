@@ -3,7 +3,7 @@
 Dedicating about 20% of my time to open-source software (OSS) by maintaining
 docker images as well as deployment templates for Data Science.
 
-*  [Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]
+*  [Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]:
     *  [JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)
     *  [JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
     *  [JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
