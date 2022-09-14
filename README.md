@@ -1,14 +1,15 @@
 # Activity
 
-Dedicating about 20% of my time to open-source software (OSS) and maintaining
-docker images as well as deployment templates for Data Science.
+Dedicating about 20% of my time to open-source software and maintaining docker
+images as well as deployment templates for Data Science.
 
 *  [Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]:
     *  [JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)
     *  [JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
     *  [JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)  
        All JupyterLab images include
-        *  [code-server](https://github.com/cdr/code-server)
+        *  [code-server](https://github.com/cdr/code-server)  
+            → VS Code in the browser
         *  [Git](https://git-scm.com)
         *  [Git LFS](https://git-lfs.github.com)
         *  [Pandoc](https://pandoc.org)
@@ -16,7 +17,7 @@ docker images as well as deployment templates for Data Science.
     *  [R docker stack](https://github.com/b-data/r-docker-stack)
     *  [Python docker stack](https://github.com/b-data/python-docker-stack)
     *  [Julia docker stack](https://github.com/b-data/julia-docker-stack)  
-       Counterparts to the JupyterLab images but **without**
+       Counterparts[^2] to the JupyterLab images but **without**
         *  code-server
         *  IRKernel/IPython/IJulia
         *  JupyterHub/JupyterLab
@@ -50,4 +51,5 @@ in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
 *  https://gitlab.b-data.ch/benz0li
 *  https://gitlab.com/benz0li
 
-[^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`
+[^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
+[^2]: Use cases: Base image, CI pipelines, headless analyses
