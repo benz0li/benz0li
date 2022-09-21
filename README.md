@@ -52,4 +52,4 @@ in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
 *  https://gitlab.com/benz0li
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases: Base image, CI pipelines, headless analyses
+[^2]: Use cases: Base image, Dev container, CI pipelines
