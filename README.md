@@ -3,37 +3,53 @@
 Dedicating about 20% of my time to open-source software and maintaining docker
 images as well as deployment templates for Data Science.
 
-*  [Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]:
-    *  [JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)
-    *  [JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
-    *  [JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)  
-       All JupyterLab images include
-        *  [code-server](https://github.com/cdr/code-server)  
-            → VS Code in the browser
-        *  [Git](https://git-scm.com)
-        *  [Git LFS](https://git-lfs.github.com)
-        *  [Pandoc](https://pandoc.org)
-        *  [Zsh](http://zsh.sourceforge.net)
-    *  [R docker stack](https://github.com/b-data/r-docker-stack)
-    *  [Python docker stack](https://github.com/b-data/python-docker-stack)
-    *  [Julia docker stack](https://github.com/b-data/julia-docker-stack)  
-       Counterparts[^2] to the JupyterLab images but **without**
-        *  code-server
-        *  IRKernel/IPython/IJulia
-        *  JupyterHub/JupyterLab
-        *  Jupyter Notebook
-        *  LSP Servers
-        *  Oh My Zsh
-        *  Widgets
-*  Docker deployment templates:
-    *  [Træfik](https://github.com/b-data/docker-deployment-traefik)
-    *  [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
-    *  [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
-*  _Containerised_ source-installations:
-    *  [R](https://github.com/b-data/rsi)
-    *  [Git](https://github.com/b-data/gsi)
-*  _Containerised_ installations:
-    *  [Git LFS](https://github.com/b-data/glfsi)
+* [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]:
+  * [(CUDA-enabled) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)
+  * [JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
+  * [JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)  
+    *All JupyterLab images include*
+    * [code-server](https://github.com/cdr/code-server)  
+      → [VS Code](https://github.com/microsoft/vscode) in the browser
+    * [Git](https://git-scm.com)
+    * [Git LFS](https://git-lfs.github.com)
+    * [Pandoc](https://pandoc.org)
+    * [Zsh](http://zsh.sourceforge.net)  
+    *CUDA-enabled images include*
+    * CUDA runtime,
+      [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
+      [NCCL](https://developer.nvidia.com/nccl) and
+      [cuDNN](https://developer.nvidia.com/cudnn)
+      * including development libraries and headers
+    * TensortRT and TensorRT plugin libraries
+      * including development libraries and headers
+  * [(CUDA-enabled) R docker stack](https://github.com/b-data/r-docker-stack)
+  * [Python docker stack](https://github.com/b-data/python-docker-stack)
+  * [Julia docker stack](https://github.com/b-data/julia-docker-stack)  
+    *Counterparts[^2] to the JupyterLab images but **without***
+    * code-server
+    * IRKernel/IPython/IJulia
+    * JupyterHub/JupyterLab
+    * Jupyter Notebook
+    * LSP Servers
+    * Oh My Zsh
+    * Widgets  
+    *CUDA-enabled images include*
+    * CUDA runtime,
+      [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
+      [NCCL](https://developer.nvidia.com/nccl) and
+      [cuDNN](https://developer.nvidia.com/cudnn)
+      * **without** development libraries and headers
+    * TensortRT and TensorRT plugin libraries
+      * **without** development libraries and headers
+* Docker deployment templates:
+  * [Træfik](https://github.com/b-data/docker-deployment-traefik)
+  * [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
+  * [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
+* _Containerised_ source-installations:
+  * [R](https://github.com/b-data/rsi)
+  * [Git](https://github.com/b-data/gsi)
+* _Containerised_ installations:
+  * [Git LFS](https://github.com/b-data/glfsi)
 
 ---
 
