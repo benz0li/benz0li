@@ -1,5 +1,18 @@
 # Activity
 
+Following the development of
+
+1.  https://gitlab.haskell.org/ghc/ghc  
+    and
+1.  https://gitlab.alpinelinux.org/alpine/aports
+
+in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
+([`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry)).  
+→ The multi-arch docker image used to build the amd64 and arm64 binary
+[releases of pandoc](https://github.com/jgm/pandoc/releases).
+
+---
+
 Dedicating about 20% of my time to open-source software and maintaining docker
 images as well as deployment templates for Data Science.
 
@@ -41,26 +54,22 @@ images as well as deployment templates for Data Science.
       * **without** development libraries and headers
     * TensortRT and TensorRT plugin libraries
       * **without** development libraries and headers
+* Customised Docker Hub images[^1][^3]:
+  * [Julia](https://gitlab.b-data.ch/julia/jsi/container_registry)
+    * Julia releases: stable, LTS
+  * [Python](https://gitlab.b-data.ch/python/psi/container_registry)
+    * Python versions: latest, the last two older
+  * [Node.js](https://gitlab.b-data.ch/nodejs/nsi/container_registry)
+    * Node releases: current, active LTS, latest maintenance LTS
+* _Containerised_ source installations[^1]:
+  * [R](https://github.com/b-data/rsi)
+  * [Git](https://github.com/b-data/gsi)
+* _Containerised_ installations[^1]:
+  * [Git LFS](https://github.com/b-data/glfsi)
 * Docker deployment templates:
   * [Træfik](https://github.com/b-data/docker-deployment-traefik)
   * [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
   * [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
-* _Containerised_ source-installations:
-  * [R](https://github.com/b-data/rsi)
-  * [Git](https://github.com/b-data/gsi)
-* _Containerised_ installations:
-  * [Git LFS](https://github.com/b-data/glfsi)
-
----
-
-Following the development of
-
-1.  https://gitlab.haskell.org/ghc/ghc  
-    and
-1.  https://gitlab.alpinelinux.org/alpine/aports
-
-in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
-([`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry)).
 
 # Linked accounts
 
@@ -68,4 +77,5 @@ in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
 *  https://gitlab.com/benz0li
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases: Parent image, Dev container, CI pipeline
+[^2]: Use cases (not exhaustive): Parent image, Dev container, CI pipeline
+[^3]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
