@@ -1,18 +1,5 @@
 # Activity
 
-Following the development of
-
-1.  https://gitlab.haskell.org/ghc/ghc  
-    and
-1.  https://gitlab.alpinelinux.org/alpine/aports
-
-in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
-([`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry)).  
-→ The multi-arch docker image used to build the amd64 and arm64 binary
-[releases of pandoc](https://github.com/jgm/pandoc/releases).
-
----
-
 Dedicating about 20% of my time to open-source software and maintaining docker
 images as well as deployment templates for Data Science.
 
@@ -70,6 +57,19 @@ images as well as deployment templates for Data Science.
   * [Træfik](https://github.com/b-data/docker-deployment-traefik)
   * [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
   * [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
+
+---
+
+Following the development of
+
+1.  https://gitlab.haskell.org/ghc/ghc  
+    and
+1.  https://gitlab.alpinelinux.org/alpine/aports
+
+in order to maintain [GHC for pandoc](https://github.com/benz0li/ghc4pandoc)
+([`registry.gitlab.b-data.ch/ghc/ghc4pandoc`](https://gitlab.b-data.ch/ghc/ghc4pandoc/container_registry)).  
+→ The multi-arch docker image used to build the amd64 and arm64 binary
+[releases of pandoc](https://github.com/jgm/pandoc/releases).
 
 # Linked accounts
 
