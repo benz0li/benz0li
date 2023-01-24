@@ -5,8 +5,8 @@ images as well as deployment templates for Data Science.
 
 * [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?sort=latest_activity_desc&name=Multi-arch%20Docker%20Image&sort=latest_activity_desc)[^1]:
   * [(CUDA-enabled) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)
-  * [JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
-  * [JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)  
+  * [(CUDA-enabled) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
+  * [(CUDA-enabled) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)  
     *All JupyterLab images include*
     * [code-server](https://github.com/cdr/code-server)  
       → [VS Code](https://github.com/microsoft/vscode) in the browser
@@ -14,7 +14,7 @@ images as well as deployment templates for Data Science.
     * [Git LFS](https://git-lfs.github.com)
     * [Pandoc](https://pandoc.org)
     * [Zsh](http://zsh.sourceforge.net)  
-    *CUDA-enabled images include*
+    *GPU accelerated images include*
     * CUDA runtime,
       [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
       [NCCL](https://developer.nvidia.com/nccl) and
@@ -23,9 +23,9 @@ images as well as deployment templates for Data Science.
     * TensortRT and TensorRT plugin libraries
       * including development libraries and headers
   * [(CUDA-enabled) R docker stack](https://github.com/b-data/r-docker-stack)
-  * [Python docker stack](https://github.com/b-data/python-docker-stack)
-  * [Julia docker stack](https://github.com/b-data/julia-docker-stack)  
-    *Counterparts[^2] to the JupyterLab images but **without***
+  * [(CUDA-enabled) Python docker stack](https://github.com/b-data/python-docker-stack)
+  * [(CUDA-enabled) Julia docker stack](https://github.com/b-data/julia-docker-stack)  
+    *Siblings[^2] of the JupyterLab images but **without***
     * code-server
     * IRKernel/IPython/IJulia
     * JupyterHub/JupyterLab
@@ -33,7 +33,7 @@ images as well as deployment templates for Data Science.
     * LSP Servers
     * Oh My Zsh
     * Widgets  
-    *CUDA-enabled images include*
+    *GPU accelerated images include*
     * CUDA runtime,
       [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
       [NCCL](https://developer.nvidia.com/nccl) and
