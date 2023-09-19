@@ -1,8 +1,9 @@
 # Activity
 
-Dedicating about 20% of my time to open-source software and maintaining docker
-images as well as deployment templates for Data Science.
+I dedicate about 20% of my time to open-source software maintaining dev
+containers, docker images and deployment templates for Data Scientists.
 
+* [(GPU accelerated) Multi-arch Dev Containers](https://github.com/b-data/data-science-devcontainers)[^1]
 * [Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]
   * [JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
 * [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image+CUDA&sort=latest_activity_desc)[^1]:
@@ -27,7 +28,7 @@ images as well as deployment templates for Data Science.
   * [(CUDA-enabled) Python docker stack](https://github.com/b-data/python-docker-stack)
   * [(CUDA-enabled) Julia docker stack](https://github.com/b-data/julia-docker-stack)
   * [(CUDA-enabled) R docker stack](https://github.com/b-data/r-docker-stack)  
-    *Siblings[^2] of the JupyterLab images but **without***
+    *Parents[^2] of the JupyterLab images **without***
     * code-server
     * IRKernel/IPython/IJulia
     * JupyterHub/JupyterLab
@@ -74,8 +75,13 @@ Following the development of
 
 in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl)
 ([`glcr.b-data.ch/ghc/ghc-musl`](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry)).  
-→ The multi-arch docker image used to build the amd64 and arm64 binary
-[releases of pandoc](https://github.com/jgm/pandoc/releases).
+
+The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
+*statically linked* Linux amd64 and arm64 binary releases of
+
+* [Pandoc](https://github.com/jgm/pandoc)
+* [Stack](https://github.com/commercialhaskell/stack)
+* [Juvix](https://github.com/anoma/juvix)
 
 # Linked accounts
 
@@ -83,5 +89,5 @@ in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl)
 *  https://gitlab.com/benz0li
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases (not exhaustive): Parent image, Dev container, CI pipeline
+[^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
 [^3]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
