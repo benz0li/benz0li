@@ -27,7 +27,7 @@ containers, docker images and deployment templates for Data Scientists.
   * [(CUDA-enabled) Python docker stack](https://github.com/b-data/python-docker-stack)
   * [(CUDA-enabled) Julia docker stack](https://github.com/b-data/julia-docker-stack)
   * [(CUDA-enabled) R docker stack](https://github.com/b-data/r-docker-stack)  
-    *Parents[^2] of the JupyterLab images **without***
+    *Siblings[^2] of the JupyterLab images **without***
     * code-server
     * IRKernel/IPython/IJulia
     * JupyterHub/JupyterLab
@@ -88,5 +88,5 @@ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 *  https://gitlab.com/benz0li
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
+[^2]: Use cases (not exhaustive): Parent image, Dev Container, CI pipeline  
 [^3]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
