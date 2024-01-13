@@ -52,12 +52,12 @@ containers, docker images and deployment templates for Data Scientists.
     * Julia releases: stable, LTS[^3]
   * [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)  
     * [JupyterHub onbuild](https://gitlab.b-data.ch/jupyterhub/jupyterhub-onbuild/container_registry)
-* _Containerised_ source installations[^1]:
+* *Containerised* source installations[^1]:
   * [Orfeo Toolbox](https://github.com/b-data/otbsi)
   * [QGIS](https://github.com/b-data/qgissi)
   * [Git](https://github.com/b-data/gsi)
   * [R](https://github.com/b-data/rsi)
-* _Containerised_ installations[^1]:
+* *Containerised* installations[^1]:
   * [Git LFS](https://github.com/b-data/glfsi)
 * Docker deployment templates:
   * [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
@@ -68,9 +68,9 @@ containers, docker images and deployment templates for Data Scientists.
 
 Following the development of
 
-1.  https://gitlab.haskell.org/ghc/ghc  
-    and
-1.  https://gitlab.alpinelinux.org/alpine/aports
+1. <https://gitlab.haskell.org/ghc/ghc>  
+   and
+1. <https://gitlab.alpinelinux.org/alpine/aports>
 
 in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl)
 ([`glcr.b-data.ch/ghc/ghc-musl`](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry)).  
@@ -82,10 +82,10 @@ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 * [Stack](https://github.com/commercialhaskell/stack)
 * [Juvix](https://github.com/anoma/juvix)
 
-# Linked accounts
+## Linked accounts
 
-*  https://gitlab.b-data.ch/benz0li
-*  https://gitlab.com/benz0li
+* <https://gitlab.b-data.ch/benz0li>
+* <https://gitlab.com/benz0li>
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
 [^2]: Use cases (not exhaustive): Parent image, Dev Container, CI pipeline  
