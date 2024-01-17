@@ -3,7 +3,7 @@
 I dedicate about 20% of my time to open-source software maintaining dev
 containers, docker images and deployment templates for Data Scientists.
 
-* [(GPU accelerated) Multi-arch Dev Containers](https://github.com/b-data/data-science-devcontainers)[^1]
+* [(GPU accelerated) Multi-arch Data Science Dev Containers](https://github.com/b-data/data-science-devcontainers)[^1]
 * [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image+CUDA&sort=latest_activity_desc)[^1]:
   * [(CUDA-enabled) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
   * [(CUDA-enabled) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
