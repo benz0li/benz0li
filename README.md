@@ -50,7 +50,7 @@ containers, docker images and deployment templates for Data Scientists.
     * Python versions: latest, the last two older[^3]
   * [Julia](https://gitlab.b-data.ch/julia/jsi/container_registry)
     * Julia releases: stable, LTS[^3]
-  * [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)  
+  * [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)
     * [JupyterHub onbuild](https://gitlab.b-data.ch/jupyterhub/jupyterhub-onbuild/container_registry)
 * *Containerised* source installations[^1]:
   * [Orfeo Toolbox](https://github.com/b-data/otbsi)
@@ -72,8 +72,7 @@ Following the development of
    and
 1. <https://gitlab.alpinelinux.org/alpine/aports>
 
-in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl)
-([`glcr.b-data.ch/ghc/ghc-musl`](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry)).  
+in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl).
 
 The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 *statically linked* Linux amd64 and arm64 binary releases of
@@ -81,6 +80,15 @@ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 * [Pandoc](https://github.com/jgm/pandoc)
 * [Stack](https://github.com/commercialhaskell/stack)
 * [Juvix](https://github.com/anoma/juvix)
+
+Images available at
+
+* [Quay](https://quay.io/repository/benz0li/ghc-musl):
+  `quay.io/benz0li/ghc-musl`
+* [Docker Hub](https://hub.docker.com/r/benz0li/ghc-musl):
+  `docker.io/benz0li/ghc-musl`
+* [GitLab (b-data GmbH)](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry/381):
+  `glcr.b-data.ch/ghc/ghc-musl`
 
 ## Linked accounts
 
