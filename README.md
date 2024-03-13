@@ -66,7 +66,7 @@ containers, docker images and deployment templates for Data Scientists.
 
 ---
 
-Following the development of
+I follow the development of
 
 1. <https://gitlab.haskell.org/ghc/ghc>  
    and
