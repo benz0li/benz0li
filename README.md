@@ -76,7 +76,8 @@ I follow the development of
    and
 1. <https://gitlab.alpinelinux.org/alpine/aports>
 
-in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl).
+in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl) –
+Unofficial binary distributions of GHC on Alpine Linux.
 
 The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 *statically linked* Linux amd64 and arm64 binary releases of
