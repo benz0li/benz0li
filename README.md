@@ -1,6 +1,6 @@
-# Activity
+# About
 
-I dedicate about 20% of my time to open-source software maintaining dev
+I devote about 20% of my time to open-source software maintaining dev
 containers, docker images and deployment templates for Data Scientists.
 
 * [Multi-arch Mojo Dev Container](https://github.com/benz0li/mojo-dev-container)[^1]
@@ -101,5 +101,5 @@ Images available at
 * <https://gitlab.com/benz0li>
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases (not exhaustive): Parent image, Dev Container, CI pipeline  
+[^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
 [^3]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
