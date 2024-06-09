@@ -11,7 +11,7 @@ Unofficial binary distributions of GHC on Alpine Linux.
 
 ![Screenshot](https://raw.githubusercontent.com/benz0li/ghc-musl/main/.devcontainer/assets/screenshots/ghc.png)
 
-The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
+ℹ️ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
 *statically linked* Linux amd64 and arm64 binary releases of
 
 * [Pandoc](https://github.com/jgm/pandoc)
