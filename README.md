@@ -29,8 +29,9 @@ Images available at
 
 ---
 
-I devote about 20% of my time to open-source software maintaining dev
-containers, docker images and deployment templates for Data Scientists.
+[@b-data](https://github.com/b-data), I devote about 20% of my time to
+open-source software maintaining dev containers, docker images and deployment
+templates for Data Scientists.
 
 * [Multi-arch Mojo Dev Container](https://github.com/benz0li/mojo-dev-container)[^1]
 * [Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]
