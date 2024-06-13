@@ -93,10 +93,11 @@ templates for Data Scientists.
   * [R](https://github.com/b-data/rsi)
 * *Containerised* installations[^1]:
   * [Git LFS](https://github.com/b-data/glfsi)
-* Docker deployment templates:
-  * [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
-  * [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
-  * [Træfik](https://github.com/b-data/docker-deployment-traefik)
+* Deployment templates:
+  * IDE for Data Science: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
+    * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
+  * DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
+  * Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
 
 ## Linked accounts
 
