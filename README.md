@@ -39,10 +39,10 @@ templates for Data Scientists.
   * [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
 * [(GPU accelerated) Multi-arch Data Science Dev Containers](https://github.com/b-data/data-science-devcontainers)[^1]
 * [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image+CUDA&sort=latest_activity_desc)[^1]:
-  * [(CUDA-enabled) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
-  * [(CUDA-enabled) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
-  * [(CUDA-enabled) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
-  * [(CUDA-enabled) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
+  * [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
+  * [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
+  * [(CUDA-based) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
+  * [(CUDA-based) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
     *All JupyterLab images include*
     * [code-server](https://github.com/cdr/code-server)  
       → [VS Code](https://github.com/microsoft/vscode) in the browser
@@ -58,9 +58,9 @@ templates for Data Scientists.
       * including development libraries and headers
     * TensortRT and TensorRT plugin libraries
       * including development libraries and headers
-  * [(CUDA-enabled) Python docker stack](https://github.com/b-data/python-docker-stack)
-  * [(CUDA-enabled) Julia docker stack](https://github.com/b-data/julia-docker-stack)
-  * [(CUDA-enabled) R docker stack](https://github.com/b-data/r-docker-stack)  
+  * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
+  * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
+  * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
     *Siblings[^2] of the JupyterLab images **without***
     * code-server
     * IRKernel/IPython/IJulia
