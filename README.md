@@ -33,19 +33,18 @@ Images available at
 open-source software maintaining dev containers, docker images and deployment
 templates for Data Scientists.
 
-* [Multi-arch Mojo Dev Container](https://github.com/benz0li/mojo-dev-container)[^1]
+* [Multi-arch Mojo dev container](https://github.com/benz0li/mojo-dev-container)[^1]
 * [Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]
   * [JupyterLab Mojo docker stack](https://github.com/b-data/jupyterlab-mojo-docker-stack)
   * [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
-* [(GPU accelerated) Multi-arch Data Science Dev Containers](https://github.com/b-data/data-science-devcontainers)[^1]
+* [(GPU accelerated) Multi-arch Data Science dev containers](https://github.com/b-data/data-science-devcontainers)[^1]
 * [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image+CUDA&sort=latest_activity_desc)[^1]:
-  * [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
-  * [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
   * [(CUDA-based) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
+  * [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
   * [(CUDA-based) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
     *All JupyterLab images include*
     * [code-server](https://github.com/cdr/code-server)  
-      → [VS Code](https://github.com/microsoft/vscode) in the browser
+      → [`Code - OSS`](https://github.com/microsoft/vscode) in the browser
     * [Git](https://git-scm.com)
     * [Git LFS](https://git-lfs.github.com)
     * [Pandoc](https://pandoc.org)
@@ -58,8 +57,9 @@ templates for Data Scientists.
       * including development libraries and headers
     * TensortRT and TensorRT plugin libraries
       * including development libraries and headers
-  * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
+  * [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
   * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
+  * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
   * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
     *Siblings[^2] of the JupyterLab images **without***
     * code-server
@@ -94,7 +94,7 @@ templates for Data Scientists.
 * *Containerised* installations[^1]:
   * [Git LFS](https://github.com/b-data/glfsi)
 * Deployment templates:
-  * IDE for Data Science: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
+  * IDE for Data Scientists: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
     * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
   * DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
   * Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
