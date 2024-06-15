@@ -1,34 +1,5 @@
 # About
 
-I follow the development of
-
-1. <https://gitlab.haskell.org/ghc/ghc>  
-   and
-1. <https://gitlab.alpinelinux.org/alpine/aports>
-
-in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl) –
-Unofficial binary distributions of GHC on Alpine Linux.
-
-![Screenshot](https://raw.githubusercontent.com/benz0li/ghc-musl/main/.devcontainer/assets/screenshots/ghc.png)
-
-ℹ️ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
-*statically linked* Linux amd64 and arm64 binary releases of
-
-* [Pandoc](https://github.com/jgm/pandoc)
-* [Stack](https://github.com/commercialhaskell/stack)
-* [Juvix](https://github.com/anoma/juvix)
-
-Images available at
-
-* [Quay](https://quay.io/repository/benz0li/ghc-musl):
-  `quay.io/benz0li/ghc-musl`
-* [Docker Hub](https://hub.docker.com/r/benz0li/ghc-musl):
-  `docker.io/benz0li/ghc-musl`
-* [GitLab (b-data GmbH)](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry/381):
-  `glcr.b-data.ch/ghc/ghc-musl`
-
----
-
 I devote about 20% of my time to open-source software maintaining dev
 containers, docker images and deployment templates for Data Scientists.
 
@@ -109,6 +80,35 @@ Deployment templates:
   * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
 * DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
 * Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
+
+---
+
+I follow the development of
+
+1. <https://gitlab.haskell.org/ghc/ghc>  
+   and
+1. <https://gitlab.alpinelinux.org/alpine/aports>
+
+in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl) –
+Unofficial binary distributions of GHC on Alpine Linux.
+
+![Screenshot](https://raw.githubusercontent.com/benz0li/ghc-musl/main/.devcontainer/assets/screenshots/ghc.png)
+
+ℹ️ The multi-arch (`linux/amd64`, `linux/arm64/v8`) docker image used to build the
+*statically linked* Linux amd64 and arm64 binary releases of
+
+* [Pandoc](https://github.com/jgm/pandoc)
+* [Stack](https://github.com/commercialhaskell/stack)
+* [Juvix](https://github.com/anoma/juvix)
+
+Images available at
+
+* [Quay](https://quay.io/repository/benz0li/ghc-musl):
+  `quay.io/benz0li/ghc-musl`
+* [Docker Hub](https://hub.docker.com/r/benz0li/ghc-musl):
+  `docker.io/benz0li/ghc-musl`
+* [GitLab (b-data GmbH)](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry/381):
+  `glcr.b-data.ch/ghc/ghc-musl`
 
 ## Linked accounts
 
