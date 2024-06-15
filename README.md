@@ -32,71 +32,85 @@ Images available at
 I devote about 20% of my time to open-source software maintaining dev
 containers, docker images and deployment templates for Data Scientists.
 
-* [Multi-arch Mojo dev container](https://github.com/benz0li/mojo-dev-container)[^1]
-* [Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]
-  * [JupyterLab Mojo docker stack](https://github.com/b-data/jupyterlab-mojo-docker-stack)
-  * [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
-* [(GPU accelerated) Multi-arch Data Science dev containers](https://github.com/b-data/data-science-devcontainers)[^1]
-* [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image+CUDA&sort=latest_activity_desc)[^1]:
-  * [(CUDA-based) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
-  * [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
-  * [(CUDA-based) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
-    *All JupyterLab images include*
-    * [code-server](https://github.com/cdr/code-server)  
-      → [`Code - OSS`](https://github.com/microsoft/vscode) in the browser
-    * [Git](https://git-scm.com)
-    * [Git LFS](https://git-lfs.github.com)
-    * [Pandoc](https://pandoc.org)
-    * [Zsh](http://zsh.sourceforge.net)  
-    *GPU accelerated images include*
-    * CUDA runtime,
-      [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
-      [NCCL](https://developer.nvidia.com/nccl) and
-      [cuDNN](https://developer.nvidia.com/cudnn)
-      * including development libraries and headers
-    * TensortRT and TensorRT plugin libraries
-      * including development libraries and headers
-  * [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
-  * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
-  * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
-  * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
-    *Siblings[^2] of the JupyterLab images **without***
-    * code-server
-    * IRKernel/IPython/IJulia
-    * JupyterHub/JupyterLab
-    * Jupyter Notebook
-    * LSP Servers
-    * Oh My Zsh
-    * Widgets  
-    *GPU accelerated images include*
-    * CUDA runtime,
-      [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
-      [NCCL](https://developer.nvidia.com/nccl) and
-      [cuDNN](https://developer.nvidia.com/cudnn)
-      * **without** development libraries and headers
-    * TensortRT and TensorRT plugin libraries
-      * **without** development libraries and headers
-* Customised Docker Hub images[^1]:
-  * [Node.js](https://gitlab.b-data.ch/nodejs/nsi/container_registry)
-    * Node releases: current, active LTS, latest maintenance LTS[^3]
-  * [Python](https://gitlab.b-data.ch/python/psi/container_registry)
-    * Python versions: latest, the last two older[^3]
-  * [Julia](https://gitlab.b-data.ch/julia/jsi/container_registry)
-    * Julia releases: stable, LTS[^3]
-  * [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)
-    * [JupyterHub onbuild](https://gitlab.b-data.ch/jupyterhub/jupyterhub-onbuild/container_registry)
-* *Containerised* source installations[^1]:
-  * [Orfeo Toolbox](https://github.com/b-data/otbsi)
-  * [QGIS](https://github.com/b-data/qgissi)
-  * [Git](https://github.com/b-data/gsi)
-  * [R](https://github.com/b-data/rsi)
-* *Containerised* installations[^1]:
-  * [Git LFS](https://github.com/b-data/glfsi)
-* Deployment templates:
-  * IDE for Data Scientists: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
-    * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
-  * DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
-  * Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
+(GPU accelerated) Multi-arch dev containers[^1]:
+
+* [(CUDA-based) Data Science dev containers](https://github.com/b-data/data-science-devcontainers)
+* [Mojo dev container](https://github.com/benz0li/mojo-dev-container)
+
+[(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]:
+
+* [JupyterLab Mojo docker stack](https://github.com/b-data/jupyterlab-mojo-docker-stack)
+* [(CUDA-based) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
+* [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
+* [(CUDA-based) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
+  *All JupyterLab images include*
+  * [code-server](https://github.com/cdr/code-server)  
+    → [`Code - OSS`](https://github.com/microsoft/vscode) in the browser
+  * [Git](https://git-scm.com)
+  * [Git LFS](https://git-lfs.github.com)
+  * [Pandoc](https://pandoc.org)
+  * [Zsh](http://zsh.sourceforge.net)  
+  *GPU accelerated images include*
+  * CUDA runtime,
+    [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
+    [NCCL](https://developer.nvidia.com/nccl) and
+    [cuDNN](https://developer.nvidia.com/cudnn)
+    * including development libraries and headers
+  * TensortRT and TensorRT plugin libraries
+    * including development libraries and headers
+* [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
+
+  ---
+
+* [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
+* [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
+* [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
+* [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
+  *Siblings[^2] of the JupyterLab images **without***
+  * code-server
+  * IRKernel/IPython/IJulia
+  * JupyterHub/JupyterLab
+  * Jupyter Notebook
+  * LSP Servers
+  * Oh My Zsh
+  * Widgets  
+  *GPU accelerated images include*
+  * CUDA runtime,
+    [CUDA math libraries](https://developer.nvidia.com/gpu-accelerated-libraries),
+    [NCCL](https://developer.nvidia.com/nccl) and
+    [cuDNN](https://developer.nvidia.com/cudnn)
+    * **without** development libraries and headers
+  * TensortRT and TensorRT plugin libraries
+    * **without** development libraries and headers
+
+Customised Docker Hub images[^1]:
+
+* [Node.js](https://gitlab.b-data.ch/nodejs/nsi/container_registry)
+  * Node releases: current, active LTS, latest maintenance LTS[^3]
+* [Python](https://gitlab.b-data.ch/python/psi/container_registry)
+  * Python versions: latest, the last two older[^3]
+* [Julia](https://gitlab.b-data.ch/julia/jsi/container_registry)
+  * Julia releases: stable, LTS[^3]
+* [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)
+  * [JupyterHub onbuild](https://gitlab.b-data.ch/jupyterhub/jupyterhub-onbuild/container_registry)
+
+*Containerised* source installations[^1]:
+
+* [Orfeo Toolbox](https://github.com/b-data/otbsi)
+* [QGIS](https://github.com/b-data/qgissi)
+* [Git](https://github.com/b-data/gsi)
+* [R](https://github.com/b-data/rsi)
+
+*Containerised* installations[^1]:
+
+* [Git LFS](https://github.com/b-data/glfsi)
+
+Deployment templates:
+
+* IDE for Data Scientists: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
+  * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
+* DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
+* Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
 
 ## Linked accounts
 
