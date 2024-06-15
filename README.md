@@ -27,7 +27,7 @@ Images available at
 * [GitLab (b-data GmbH)](https://gitlab.b-data.ch/ghc/ghc-musl/container_registry/381):
   `glcr.b-data.ch/ghc/ghc-musl`
 
-***
+---
 
 I devote about 20% of my time to open-source software maintaining dev
 containers, docker images and deployment templates for Data Scientists.
@@ -58,8 +58,8 @@ containers, docker images and deployment templates for Data Scientists.
     * including development libraries and headers
   * TensortRT and TensorRT plugin libraries
     * including development libraries and headers
-* [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)
-  ***
+* [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)  
+  \-\-\-
 * [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
 * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
 * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
