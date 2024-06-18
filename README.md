@@ -76,10 +76,10 @@ Customised Docker Hub images[^1]:
 
 Deployment templates:
 
-* IDE for Data Scientists: [Jupyter](https://gitlab.b-data.ch/docker/deployments/jupyter)
+* IDE for Data Scientists: [Jupyter](https://github.com/b-data/docker-deployment-jupyter)
   * [JupyterLab](https://jupyter.org) + [code-server](https://github.com/coder/code-server)
-* DevOps Platform: [GitLab CE](https://gitlab.b-data.ch/docker/deployments/gitlab-ce)
-* Reverse proxy: [Træfik](https://gitlab.b-data.ch/docker/deployments/traefik)
+* DevOps Platform: [GitLab CE](https://github.com/b-data/docker-deployment-gitlab-ce)
+* Reverse proxy: [Træfik](https://github.com/b-data/docker-deployment-traefik)
 
 ---
 
@@ -112,8 +112,8 @@ Images available at
 
 ## Linked accounts
 
-* <https://gitlab.b-data.ch/benz0li>
 * <https://gitlab.com/benz0li>
+* <https://gitlab.b-data.ch/benz0li>
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
 [^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
