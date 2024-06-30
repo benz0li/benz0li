@@ -1,7 +1,8 @@
 # About
 
 I devote about 20% of my time to open-source software maintaining dev
-containers, docker images and deployment templates for Data Scientists.
+containers, docker images and deployment templates for Data Scientists,
+ML/AI Engineers, and the like.
 
 (GPU accelerated) Multi-arch dev containers[^1]:
 
