@@ -18,6 +18,7 @@ ML/AI Engineers, and the like.
   *All JupyterLab images include*
   * [code-server](https://github.com/cdr/code-server)  
     → [`Code - OSS`](https://github.com/microsoft/vscode) in the browser
+  * [Neovim](https://neovim.io)
   * [Git](https://git-scm.com)
   * [Git LFS](https://git-lfs.github.com)
   * [Pandoc](https://pandoc.org)
@@ -36,7 +37,7 @@ ML/AI Engineers, and the like.
 * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
 * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
 * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
-  *Siblings[^2] of the JupyterLab images **without***
+  *Siblings[^3] of the JupyterLab images **without***
   * code-server
   * IRKernel/IPython/IJulia
   * JupyterHub/JupyterLab
@@ -53,19 +54,29 @@ ML/AI Engineers, and the like.
   * TensortRT and TensorRT plugin libraries
     * **without** development libraries and headers
 
+*Unofficial* and *untested* releases[^2]:
+
+* Linux/RISC-V
+  * [Pandoc](https://gitlab.b-data.ch/jgm/pandoc/-/releases)
+  * [Stack](https://gitlab.b-data.ch/commercialhaskell/stack/-/releases)
+  * [code-server](https://gitlab.b-data.ch/coder/code-server/-/releases)
+* Linux/AArch64
+  * [Neovim](https://gitlab.b-data.ch/neovim/neovim/-/releases)
+
 Customised Docker Hub images[^1]:
 
 * [Node.js](https://gitlab.b-data.ch/nodejs/nsi/container_registry)
-  * Node releases: current, active LTS, latest maintenance LTS[^3]
+  * Node releases: current, active LTS, latest maintenance LTS[^4]
 * [Python](https://gitlab.b-data.ch/python/psi/container_registry)
-  * Python versions: latest, the last two older[^3]
+  * Python versions: latest, the last two older[^4]
 * [Julia](https://gitlab.b-data.ch/julia/jsi/container_registry)
-  * Julia releases: stable, LTS[^3]
+  * Julia releases: stable, LTS[^4]
 * [JupyterHub](https://gitlab.b-data.ch/jupyterhub/jupyterhub/container_registry)
   * [JupyterHub onbuild](https://gitlab.b-data.ch/jupyterhub/jupyterhub-onbuild/container_registry)
 
 *Containerised* source installations[^1]:
 
+* [Neovim](https://github.com/b-data/nvsi)
 * [Orfeo Toolbox](https://github.com/b-data/otbsi)
 * [QGIS](https://github.com/b-data/qgissi)
 * [Git](https://github.com/b-data/gsi)
@@ -117,5 +128,6 @@ Images available at
 * <https://gitlab.b-data.ch/benz0li>
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
-[^3]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
+[^2]: For currently unsupported archs due to missing GitHub runners
+[^3]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
+[^4]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
