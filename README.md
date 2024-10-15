@@ -11,7 +11,7 @@ ML/AI Engineers, and the like.
 
 [(GPU accelerated) Multi-arch docker images](https://gitlab.b-data.ch/explore?name=Multi-arch+Docker+Image&sort=latest_activity_desc)[^1]:
 
-* [JupyterLab Mojo docker stack](https://github.com/b-data/jupyterlab-mojo-docker-stack)
+* [JupyterLab MAX/Mojo docker stack](https://github.com/b-data/jupyterlab-mojo-docker-stack)
 * [(CUDA-based) JupyterLab Julia docker stack](https://github.com/b-data/jupyterlab-julia-docker-stack)
 * [(CUDA-based) JupyterLab Python docker stack](https://github.com/b-data/jupyterlab-python-docker-stack)
 * [(CUDA-based) JupyterLab R docker stack](https://github.com/b-data/jupyterlab-r-docker-stack)  
@@ -33,7 +33,7 @@ ML/AI Engineers, and the like.
     * including development libraries and headers
 * [(CUDA-based) JupyterLab QGIS docker stack](https://github.com/b-data/jupyterlab-qgis-docker-stack)  
   \-\-\-
-* [Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
+* [MAX/Mojo docker stack](https://github.com/b-data/mojo-docker-stack)
 * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
 * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
 * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
