@@ -37,7 +37,7 @@ ML/AI Engineers, and the like.
 * [(CUDA-based) Julia docker stack](https://github.com/b-data/julia-docker-stack)
 * [(CUDA-based) Python docker stack](https://github.com/b-data/python-docker-stack)
 * [(CUDA-based) R docker stack](https://github.com/b-data/r-docker-stack)  
-  *Siblings[^3] of the JupyterLab images **without***
+  *Siblings[^2] of the JupyterLab images **without***
   * code-server
   * IRKernel/IPython/IJulia
   * JupyterHub/JupyterLab
@@ -54,7 +54,7 @@ ML/AI Engineers, and the like.
   * TensortRT and TensorRT plugin libraries
     * **without** development libraries and headers
 
-*Unofficial* and *untested* releases[^2]:
+*Unofficial* and *untested* releases[^3]:
 
 * Linux/Power (64-bit)
   * [code-server](https://gitlab.b-data.ch/coder/code-server/-/releases)
@@ -132,6 +132,6 @@ Images available at
 * <https://gitlab.b-data.ch/benz0li>
 
 [^1]: Current `os/arch`'s: `linux/amd64`, `linux/arm64/v8`  
-[^2]: For currently unsupported archs due to missing GitHub runners
-[^3]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
+[^2]: Use cases (not exhaustive): Parent image, dev container, CI pipeline  
+[^3]: For currently unsupported archs due to missing GitHub runners
 [^4]: Base images: Debian (slim): stable, oldstable; Ubuntu: current LTS, former LTS
