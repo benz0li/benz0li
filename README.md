@@ -56,9 +56,13 @@ ML/AI Engineers, and the like.
 
 *Unofficial* and *untested* releases[^2]:
 
-* Linux/RISC-V
+* Linux/Power (64-bit)
+  * [code-server](https://gitlab.b-data.ch/coder/code-server/-/releases)
+* Linux/RISC-V (64-bit)
   * [Pandoc](https://gitlab.b-data.ch/jgm/pandoc/-/releases)
   * [Stack](https://gitlab.b-data.ch/commercialhaskell/stack/-/releases)
+  * [code-server](https://gitlab.b-data.ch/coder/code-server/-/releases)
+* Linux/s390x
   * [code-server](https://gitlab.b-data.ch/coder/code-server/-/releases)
 * Linux/AArch64
   * [Neovim](https://gitlab.b-data.ch/neovim/neovim/-/releases)
