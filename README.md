@@ -106,7 +106,7 @@ I follow the development of
 1. <https://gitlab.alpinelinux.org/alpine/aports>
 
 in order to maintain [GHC musl](https://github.com/benz0li/ghc-musl) –
-Unofficial binary distributions of GHC on Alpine Linux.
+*Unofficial* and *untested* binary distributions of GHC on Alpine Linux.
 
 ![Screenshot](https://raw.githubusercontent.com/benz0li/ghc-musl/main/.devcontainer/assets/screenshots/ghc.png)
 
